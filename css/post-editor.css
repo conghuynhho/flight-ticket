@@ -1,0 +1,131 @@
+.post-editor * :not(i){font-family: 'Open Sans', sans-serif !important;}
+.post-editor {font-size:14px;line-height:18px;}
+.post-editor p{margin-top: 10px;margin-bottom:10px;text-align: justify; color:#000; font-size:15px; line-height:25px;}
+.post-editor strong{font-weight: bold;}
+.post-editor ul{margin:10px 0px 10px 30px;line-height: 24px;color: #000;}
+.post-editor ul li{list-style-type: disc;margin-bottom:6px;line-height:26px;}
+.post-editor blockquote{list-style-type: disc;margin: 10px 30px;}
+.post-editor img{width: auto;max-width: 97%;height: auto;}
+.post-editor table{max-width: 100% !important; width: 100% !important; border-collapse: collapse;}
+.post-editor table td{padding:3px 5px; border: 1px solid #ccc; text-align: justify;vertical-align: middle;}
+.post-editor i,.post-editor em{font-style: italic;}
+.post-editor h1,.post-editor h2,.post-editor h3,.post-editor h4, .post-editor h5, .post-editor h6{clear:both;}
+.post-editor h1{font-weight: bold;font-size: 20px;}
+.post-editor h2{font-weight: bold;font-size: 18px; padding: 7px 0px;}
+.post-editor h3{font-weight: bold;font-size: 16px;padding: 5px 0px;}
+.post-editor h4{font-weight: bold;font-size: 14px;line-height: 20px;}
+
+.post-editor .tbl_bank,.post-editor .tbl_bank table{border: 0;}
+.post-editor .tbl_bank td{border: 0;}
+.post-editor .tbl_bank .tr-bank{border-top:1px solid #ccc; }
+.post-editor .tbl_bank .td-bank-detail{padding: 10px 0;}
+
+.post-editor a:focus,
+.post-editor a:active,
+.post-editor a:hover {
+    text-shadow: 0.2px 1px 1px hsla(0, 0%, 79%, 0.9);cursor: pointer;
+}
+.post-editor sup,
+.post-editor sub {
+    font-size: 10px;
+    height: 0;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline;
+}
+.post-editor sup {
+    bottom: 1ex;
+}
+.post-editor sub {
+    top: .5ex;
+}
+
+/* Alignment */
+.post-editor .alignleft {
+    display: inline;
+    float: left;
+    margin-right: 15px !important;
+}
+.post-editor .alignright {
+    display: inline;
+    float: right;
+    margin-left: 15px !important;
+}
+.post-editor .aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-editor .align-none{
+    display: block;
+    float: none;
+}
+
+/*##########################################*/
+.post-editor .editor-attachment {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+.post-editor .wp-caption {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 4px;
+    margin: 10px 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+	max-width: 100% !important;
+}
+.post-editor .wp-caption.aligncenter{margin:10px auto;}
+.post-editor .wp-caption p{margin-top:5px;margin-bottom: 0;}
+
+.post-editor .wp-caption img {
+    display: block;
+    margin: 5px auto 0 !important;
+    max-width: 98%;
+    border-color: #eee;
+}
+.post-editor .wp-caption .wp-caption-text,
+.post-editor .wp-caption-dd {
+    color: #666;
+    font-family: verdana, geneva;
+    font-size: 12px;
+    padding: 0 4px 5px;
+    position: relative;
+    text-align: center;
+    line-height: 17px;
+}
+.post-editor a:focus img[class*="wp-image-"],
+.post-editor a:hover img[class*="wp-image-"],
+.post-editor a:active img[class*="wp-image-"] {
+    background: #eee;
+    border-color: #bbb;
+}
+.post-editor .wp-caption a:focus img,
+.post-editor .wp-caption a:active img,
+.post-editor .wp-caption a:hover img {
+    background: #fff;
+    border-color: #ddd;
+}
+
+#airrule{
+
+}
+#airrule .wghead{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+td.bank-label {width: 65px;}
+ 
+table.tbl-bank-detail td{border:0;}
+td.bank-logo{width:100px;}
+.signal.alignright p{text-align:right;}
+.post-editor table.oe{width:100%;}
+.post-editor table.oe th{color:green;}
+.post-editor table.oe th, .post-editor table td{padding:5px;}
+.post-editor table.oe tr:nth-child(odd) {background: #f9f9f9;}
+.post-editor table.oetr:nth-child(even) {background: #FFF}

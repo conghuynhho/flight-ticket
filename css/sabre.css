@@ -1,0 +1,757 @@
+/* PAGE CHỌN HÀNH TRÌNH */
+.inter-margin-waiting-block {
+    margin: 20px;
+}
+
+/* ERRORS */
+.no-search-filter {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/* TIÊU ĐỀ */
+.big-inter {
+    font-size: 14px;
+}
+.date-dep-inter {
+    margin-left: 35px;
+}
+.data-ret-inter {
+    float: right;
+}
+/* SLIDER FILTER DEPARTIME - ARVTIME */
+.airports-time-flight .ui-slider a.ui-slider-handle {
+    width: 8px;
+    height: 16px;
+    top: -6px;
+}
+.airports-time-flight .ui-widget-content {
+    background: #FEF4EB;
+    border: 1px solid #ff7b0f;
+    height: 6px;
+}
+.padding-time-flight-sort {
+    padding: 10px 0 10px 0px;
+}
+.padding-time-flight-sort .border-none {
+    background: none;
+    border: none;
+    outline: none;
+}
+.padding-time-flight-sort p label {
+    margin-left: 5px;
+}
+.text-center-point-slider {
+    text-align: center;
+    margin: 0 10px;
+}
+#slider-rangeld .ui-widget-header, #slider-rangelv .ui-widget-header {
+    border-radius: 4px;
+    border: 1px solid #ff7b00;
+    background: #ff7b00 50% 50% repeat-x!important;
+}
+#slider-rangeld .ui-slider-handle, #slider-rangelv .ui-slider-handle {
+    border: 1px solid #ff7b00!important;
+    background: #fff !important;
+    margin-left: 0;
+    border-radius: 0;
+}
+.rule {
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.rule span.h-6 {
+    width: 23%;
+}
+.rule span {
+    color: #666;
+    float: left;
+    font-size: 15px;
+    width: 14%;
+    margin-top: 5px;
+}
+.airports-time-flight .last-text-right {
+    float: right !important;
+    width: 10% !important;
+}
+.content-font-size {
+    font-size:15px;
+}
+
+/*FILTER HÃNG HÀNG KHÔNG */
+#inter-airlines img {
+    max-width: 50px;
+}
+#inter-airlines td img {
+    float: right;
+    height: 25px;
+    margin-top: 5px;
+}
+
+/* BOX */
+.searchresults .title-page-international {
+    margin-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchresults .title-page-international h2 {
+    margin-top: 12px;
+}
+
+.searchresults .title-page-international .float-right {
+    padding-top: 0 !important;
+}
+
+.searchresults .title-page-international .float-right p {
+    margin-top: 0;
+}
+
+.searchresults .title-page-international.one-way {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.searchresults .title-page-international.one-way h2 {
+    margin-top: 5px;
+}
+
+.searchresults .route,
+.searchresults .ftable-extra,
+.searchresults .dates,
+.searchresults .searchresults-departureinfo,
+.searchresults .searchresults-arrivalinfo,
+.searchresults .filters {
+    display: none;
+}
+
+.searchresults .chooseticket {
+    color: #FFA300;
+    margin-top: 10px;
+}
+
+.searchresults .searchresults-tbl {
+    width: 100%;
+    display: block;
+}
+
+.searchresults .searchresults-tbl thead {
+    border: 1px solid #6e6e6e;
+    display: none;
+}
+
+.searchresults .searchresults-tbl th {
+    background-color: #6e6e6e;
+    font-weight: normal;
+    padding: 10px !important;
+}
+
+.searchresults .searchresults-tbl th span {
+    display: initial !important;
+}
+
+.searchresults .searchresults-tbl th:last-child {
+    text-align: right !important;
+}
+
+.searchresults .searchresults-tbl tbody,
+.searchresults .searchresults-tbl tr,
+.searchresults .searchresults-tbl td {
+    display: block;
+}
+
+.searchresults .searchresults-tbl > tbody > tr {
+    background: #fff !important;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.searchresults .searchresults-tbl > tbody > tr:before,
+.searchresults .searchresults-tbl > tbody > tr:after {
+    display: table;
+    content: " ";
+}
+
+.searchresults .searchresults-tbl > tbody > tr:after {
+    clear: both;
+}
+
+.searchresults .searchresults-tbl > tbody tr.select-flight.selected {
+    background: rgba(247, 148, 29, 0.2) !important;
+}
+
+.searchresults .searchresults-tbl > tbody tr.select-flight.selected:hover td {
+    background: none !important;
+}
+
+.searchresults .searchresults-tbl td {
+    float: left;
+}
+
+.searchresults .searchresults-tbl .airline {
+    display: block;
+}
+
+.searchresults .searchresults-tbl .airline img {
+    max-height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.searchresults .searchresults-tbl .airline .name-airlines {
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.searchresults .searchresults-tbl .airlines-city-departure,  .searchresults .searchresults-tbl .airlines-city-return {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #ff5c00;
+}
+
+.searchresults .searchresults-tbl .FlightNo {
+    font-weight: normal;
+}
+
+.searchresults .searchresults-tbl .flight-time {
+    display: inline-block;
+    float: none;
+}
+
+.searchresults .searchresults-tbl .flight-time .time {
+    font-size: 24px;
+    font-weight: normal;
+    display: block;
+    line-height: initial;
+    margin-bottom: 5px;
+}
+
+.searchresults .searchresults-tbl .flgiht-time-more {
+    font-size: 16px;
+    line-height: initial;
+    color: #837A76;
+    font-weight: 200;
+}
+
+.searchresults .searchresults-tbl .flgiht-time-more:before,
+.searchresults .searchresults-tbl .flgiht-time-more:after {
+    display: table;
+    content: " ";
+}
+
+.searchresults .searchresults-tbl .flgiht-time-more:after {
+    clear: both;
+}
+
+.searchresults .searchresults-tbl .flgiht-time-more .duration {
+    float: left;
+    margin-right: 5px;
+}
+
+.searchresults .searchresults-tbl .flgiht-time-more .stop-info {
+    float: right;
+    margin-left: 5px;
+}
+
+.searchresults .searchresults-tbl .flight-price {
+    float: right;
+    text-align: right;
+    min-width: 190px;
+}
+
+.searchresults .searchresults-tbl .flight-price .showingPrice {
+    display: block;
+    font-size: 24px;
+    color: #FFA300;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.searchresults .searchresults-tbl .flight-price i {
+    display: block;
+    margin-bottom: 5px;
+    color: #837A76;
+}
+
+.searchresults .searchresults-tbl .flight-price .flag-choose-flight {
+    background: #63ADB3;
+    border-radius: 4px;
+    display: inline-block;
+    width: 150px;
+    padding: 7px 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+.searchresults .searchresults-tbl .flight-price .flag-choose-flight:hover {
+    background: #00264E;
+}
+
+.searchresults .searchresults-tbl .viewinfo,
+.searchresults .searchresults-tbl .viewflightinfo {
+    color: #63adb3;
+    float: left;
+    margin-top: 15px;
+}
+
+.searchresults .searchresults-tbl .viewinfo:hover,
+.searchresults .searchresults-tbl .viewflightinfo:hover {
+    color: #FFA300;
+}
+
+.searchresults .searchresults-tbl .flight-detail-inline {
+    padding-right: 15px !important;
+}
+
+.searchresults .searchresults-tbl .flight-detail-inline td {
+    text-align: left;
+}
+
+.searchresults .searchresults-tbl .flight-detail-inline.hide.show {
+    display: block;
+}
+
+.searchresults .searchresults-tbl tbody.has-choosed {
+    border-color: #00264E;
+}
+
+.searchresults .searchresults-tbl tbody.has-choosed tr.select-flight {
+    display: none !important;
+}
+
+.searchresults .searchresults-tbl tbody.has-choosed tr.select-flight ~ .flight-detail-inline.hide {
+    display: none !important;
+}
+
+.searchresults .searchresults-tbl tbody.has-choosed tr.select-flight.selected {
+    display: block !important;
+}
+
+.searchresults .searchresults-tbl tbody.has-choosed tr.select-flight.selected ~ .flight-detail-inline.hide.show {
+    display: block !important;
+}
+
+.searchresults .searchresults-tbl tbody.has-choosed td {
+    border-color: #00264E !important;
+}
+
+.searchresults .searchresults-tbl tr.best-price-hightlight .showingPrice,
+.searchresults .searchresults-tbl tr.best-price-hightlight .multi-cury {
+    padding-left: 24px;
+    background: url(../images/best-price.png) no-repeat left center;
+    background-size: 14px;
+}
+
+.searchresults .searchresults-tbl.international.roundtrip .flight-price {
+    padding-top: 15px;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr > td:nth-of-type(1) {
+    width: 70%;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr td.view-flight-info {
+    clear: left;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .return,
+.searchresults .searchresults-tbl.international tbody > tr .departure {
+    display: block;
+    position: relative;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .return .title,
+.searchresults .searchresults-tbl.international tbody > tr .departure .title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .return .info-airlines,
+.searchresults .searchresults-tbl.international tbody > tr .departure .info-airlines {
+    float: left;
+    min-width: 130px;
+    text-align: left;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .return {
+    border-top: 1px dashed #ddd;
+    position: relative;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .flight-time .time {
+    font-size: 24px;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .flgiht-time-more {
+    font-size: 14px;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .multi-cury {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f26722;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .viewflightinfo {
+    position: initial;
+    clear: right;
+    display: block;
+    margin-top: 7px;
+    color: #63adb3;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .viewflightinfo:hover {
+    color: #FFA300;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .viewflightinfo:focus {
+    outline: none;
+}
+
+.searchresults .searchresults-tbl.international tbody > tr .flight-price .flag-choose-flight {
+    font-size: 16px;
+}
+
+.searchresults .searchresults-tbl.international.roundtrip .col-location span:nth-of-type(1) {
+    max-width: 185px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/* CHI TIẾT CHUYẾN BAY */
+.flight-detail-content-inline {
+    text-align:left;
+    float:none!important;
+    clear:both;
+}
+    
+.flight-detail-content-inline .ui-tabs {
+    background:none;
+    margin-top:15px;
+}
+    
+.flight-detail-content-inline h4 {
+    font-size:16px;
+    font-weight:400;
+    color:#00264e;
+    margin:15px 0;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+    
+.flight-detail-content-inline .flight-info-transit {
+    margin: 5px 0;
+    color: #181717;
+    border-top: 1px solid #dc0f16;
+    border-bottom: 1px solid #dc0f16;
+    background: #fddfe0;
+    text-align: center;
+    padding: 5px 0px 5px;
+}
+    
+.flight-detail-content-inline > td {
+    float:none!important;
+}
+    
+.flight-detail-content-inline .departure-time,.flight-detail-content-inline .arrival-time {
+    float:left;
+    margin-right:40px;
+    width:25%;
+}
+    
+.flight-detail-content-inline .departure-time .text,.flight-detail-content-inline .arrival-time .text {
+    margin-bottom:5px;
+    font-weight:700;
+}
+    
+.flight-detail-content-inline .departure-time span,.flight-detail-content-inline .departure-time b,.flight-detail-content-inline .arrival-time span,.flight-detail-content-inline .arrival-time b {
+    display:block;
+}
+    
+.flight-detail-content-inline .departure-time .time,.flight-detail-content-inline .arrival-time .time {
+    font-size:18px;
+    margin-bottom:5px;
+    line-height:initial;
+}
+    
+.flight-detail-content-inline .airlines-info {
+    float:left;
+}
+    
+.flight-detail-content-inline .airlines-info span {
+    display:block;
+    margin-bottom:5px;
+}
+    
+.flight-detail-content-inline .airlines-info u {
+    text-decoration:none;
+    display:inline-block;
+    width:110px;
+}
+    
+.flight-detail-content-inline .airlines-info b {
+    font-weight:400;
+    color:#04658E;
+}
+    
+.flight-detail-content-inline .location {
+    font-weight:400;
+}
+
+/*BUTTON CHỌN PAGE TIM CHUYEN BAY */
+.flight-price label {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    position: relative;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(0,0,0,.25);
+    font-size: 14px;
+    padding: 6px 14px 7px;
+    background-color: #f26722;
+}
+
+/* BUTTON CLICK CHI TIẾT */
+.view-flight-info .class-view-fdetail {
+    display: inline-block!important;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+    #result .title-page {
+        padding: 15px;
+        position: relative;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    #result .title-page .clearfix {
+        padding-right: 0px;
+    }
+    #result .title-page .container h3 span {
+        display: none;
+    }
+    #result .title-page .container h3 {
+        font-size: 14px;
+        line-height: initial;
+        margin: 0 0 10px;
+    }
+    #result .title-page:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background: #000;
+        right: 24px;
+        top: 50%;
+        margin-top: -3px;
+    }
+    #result .title-page .change-search:before, #result .title-page .change-search:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background: #000;
+        right: 9px;
+    }
+    #result .title-page .change-search {
+        width: 24px;
+        height: 34px;
+        font-size: 0;
+        border: 0;
+        margin-top: -17px;
+    }
+    #result .title-page .change-search:hover, #result .title-page .change-search:focus {
+        background: none;
+        outline: none;
+    }
+    .searchresults .chooseticket {
+        font-size: 16px;
+    }
+    .searchresults .searchresults-tbl > tbody > tr {
+        padding: 10px;
+    }
+    .searchresults .searchresults-tbl tr.best-price-hightlight {
+        background-size: 14px !important;
+    }
+    .searchresults .searchresults-tbl tr.best-price-hightlight .showingPrice,
+    .searchresults .searchresults-tbl tr.best-price-hightlight .multi-cury {
+        padding-left: 0;
+        background: none;
+        background-size: 14px;
+    }
+    .searchresults .searchresults-tbl td.info-airlines {
+        float: none;
+    }
+    .searchresults .searchresults-tbl td.info-airlines .name-airlines {
+        font-size: 12px;
+        display: initial;
+    }
+    .searchresults .searchresults-tbl td.info-airlines .name-airlines:before {
+        content: ' - ';
+    }
+    .searchresults .searchresults-tbl .airline {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .searchresults .searchresults-tbl .flight-time {
+        clear: left;
+        float: left;
+    }
+    .searchresults .searchresults-tbl .flight-time .time {
+        font-size: 18px;
+        float: left;
+    }
+    .searchresults .searchresults-tbl .flight-time .flgiht-time-more {
+        font-size: 14px;
+        float: right;
+        margin-left: 10px;
+    }
+    .searchresults .searchresults-tbl .flight-time .flgiht-time-more .duration,
+    .searchresults .searchresults-tbl .flight-time .flgiht-time-more .stop-info {
+        display: block;
+        float: none;
+        font-size: 13px;
+    }
+    .searchresults .searchresults-tbl .flight-time .flgiht-time-more .duration {
+        margin-bottom: 34px;
+        padding-top: 3px;
+    }
+    .searchresults .searchresults-tbl .viewinfo {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        background: url(../images/ic-dropdown.png) no-repeat right center;
+        padding-right: 20px;
+    }
+    .searchresults .searchresults-tbl .flight-price {
+        min-width: initial;
+    }
+    .searchresults .searchresults-tbl .flight-price .showingPrice {
+        font-size: 18px;
+    }
+    .searchresults .searchresults-tbl .flight-price i {
+        font-size: 11px;
+    }
+    .searchresults .searchresults-tbl .flight-price .flag-choose-flight {
+        width: 120px;
+        font-size: 14px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr td:nth-of-type(1) {
+        width: initial;
+        float: none;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .info-airlines {
+        min-width: initial !important;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .return {
+        clear: both;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .airline {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr img {
+        max-width: 110px;
+        margin-right: 0 !important;
+        margin-bottom: 5px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .name-airlines {
+        display: block;
+        color: #999;
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flgiht-time-more {
+        float: none;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flgiht-time-more .duration,
+    .searchresults .searchresults-tbl.international tbody > tr .flgiht-time-more .stop-info {
+        float: left;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flgiht-time-more .duration {
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flight-price {
+        float: none;
+        clear: both;
+        position: relative;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flight-price:before {
+        position: absolute;
+        left: -10px;
+        right: -10px;
+        height: 1px;
+        background: #dadada;
+        display: block;
+        top: 0;
+        content: '';
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flight-price i {
+        float: left;
+        clear: left;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .flight-price .flag-choose-flight {
+        float: right;
+        margin-top: -20px;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr .multi-cury {
+        float: left;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr td.view-flight-info {
+        padding-top: 0;
+        margin-top: -7px;
+        float: none;
+        text-align: left;
+    }
+    .searchresults .searchresults-tbl.international tbody > tr td.view-flight-info .viewflightinfo {
+        float: none;
+        display: initial;
+    }
+    .searchresults .searchresults-tbl.international .flight-time {
+        clear: initial;
+        display: block;
+        float: right;
+    }
+
+    .big-inter {
+        font-size: 12px;
+    }
+
+    .flight-detail-content-inline .departure-time, .flight-detail-content-inline .arrival-time {
+        margin-right: 0px;
+        width: 50%;
+    }
+    
+}

@@ -1,0 +1,38 @@
+#frm-contact{padding: 10px;margin-top: 20px;border: 1px solid #dbdbdb;}
+#frm-contact input[type=text]{}
+#frm-contact textarea:active{outline: 0;}
+#contact-submit{margin: 10px 10px 10px 0;}
+
+.contactct .address{padding: 5px;margin-bottom: 10px;border-bottom: 1px solid #dbdbdb;line-height: 18px;}
+.contactct .intro{line-height: 18px; text-align: justify;padding: 5px;margin-bottom: 10px;}
+.contactct fieldset{padding:10px 20px;border: 1px solid #dbdbdb;}
+.contactct fieldset legend{padding: 10px;border: 1px solid #dbdbdb;font-weight: bold;}
+
+.contactct fieldset div{float: left;}
+#left{width: 280px;margin-right: 13px;}
+#right{width: 293px;}
+
+#left input{
+    height: 20px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+#right textarea{width: 280px;height: 72px;}
+#right input{width: 295px;}
+.info_company strong{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+}
+#notice-error{display: block;text-align: center;margin-bottom: 10px;}
+#ct_bank table{border:0;}
+#ct_bank table td{border:0;}
+#ct_bank h3{font-weight:bold;font-size:16px;border-bottom:1px solid #cecece;line-height:40px;}
+#ct_bank .bank-logo{vertical-align:middle;padding:10px 0px;width:150px;text-align:center;}
+#ct_bank .td-bank-detail{vertical-align:middle;padding:10px 0px;}
+#ct_bank .tr-bank{border-bottom:1px dotted #cecece;}
+#ct_bank .bank-name td{color:#333;}
+#ct_bank .bank-label{color:#777777;font-size:11px;width:60px;}
+#ct_bank .tbl-bank-detail{line-height:20px;}
+#ct_bank .com-name,#ct_bank .bank-number,#ct_bank .bank-branch{}
+#ct_bank .com-name h5{font-weight:bold;}

@@ -1,0 +1,153 @@
+.wrap-paymethod h1{line-height: 20px;text-transform: uppercase;font-weight: bold;font-size: 15px;}
+#frm_selectpaymentmethod{line-height: 20px;margin: 0px;}
+#mainDisplay h2{text-transform: uppercase;margin-top: 20px;height: 30px; line-height: 30px;padding-left: 10px; font-weight: normal;color: #fff;background-color: #204254;}
+.methods{
+    margin:5px 10px;
+}
+.methods-header label{
+    padding:20px 45px;
+    display:block;
+	margin-left:0px;
+	margin-right:0px;
+}
+ 
+.methods-header a{color: #fff;}
+.payment h2{
+    margin:0px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+.methods h3{
+    margin:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding-bottom:10px;
+    color:#fff !important;
+}
+.methods p{
+    margin:0px;
+	 
+}
+.tb_method{
+    width:100%;
+}
+.tb_method .logo_sacombank{
+    width:125px;
+    background:url(../images/lg_scb.jpg) center center no-repeat;
+}
+.tb_method .logo_acb{
+    width:125px;
+    background:url(../images/logo_acb.jpg) center center no-repeat;
+}
+.tb_method .logo_agb{
+    width:125px;
+    background:url(../images/lg_agb.jpg) center center no-repeat;
+}
+.tb_method .logo_bidv{
+    width:125px;
+    background:url(../images/lg_bidv.gif) center center no-repeat;
+}
+.tb_method .logo_dab{
+    width:125px;
+    background:url(../images/lg_dab.jpg) center center no-repeat;
+}
+.tb_method .logo_scb{
+    width:125px;
+    background:url(../images/lg_scb.jpg) center center no-repeat;
+}
+.tb_method .logo_tech{
+    width:125px;
+    background:url(../images/lg_tech.jpg) center center no-repeat;
+}
+.tb_method .logo_vcb{
+    width:125px;
+    background:url(../images/lg_vcb.jpg) center center no-repeat;
+}
+.tb_method .logo_vib{
+    width:125px;
+    background:url(../images/lg_vib.jpg) center center no-repeat;
+}
+.tb_method .logo_vtb{
+    width:125px;
+    background:url(../images/lg_vietinbank.jpg) center center no-repeat;
+}
+
+.tb_method tr td{
+    padding:3px;
+}
+.methods-content .select{
+    margin-top:10px;
+    text-align:right;
+}
+  
+.methods-content{
+    display:none;
+}
+ 
+.methods label{cursor: pointer;}
+.methods label h3{font-weight: bold; font-size:16px; margin:0px !important; line-height:20px; padding-top:10px;}
+
+.methods-header{
+	background:#f2f2f2;
+	 
+}
+.methods-header>span {
+  text-transform: uppercase;
+  font-weight:bold;
+}
+.methods-header.active{
+	background: #2D67B2;
+    color: #fff;
+ }
+#content_transfer h3{font-size: 16px;color: #f20000; font-weight:bold; border-bottom:none;}
+.methods-content{padding: 10px 5px;}
+.methods-content p em{font-style: italic;}
+.methods-content p{color:#000;}
+.methods-content table{margin-top: 10px;}
+.methods-content table .acc_number{letter-spacing: 2px;}
+.methods-content table .acc_name{letter-spacing: 2px;}
+.methods-content table .acc_location{letter-spacing: 2px;}
+
+.methods-content .select span.waiting{
+	color:#f20000; 
+	background:url(../images/loader.gif) left center no-repeat; 
+	padding: 70px 0px 70px 70px;
+	line-height:70px;
+	display:none;
+}
+.methods.checkbox.checked:before, .methods .radio.checked:before {}
+
+#content_office h3{padding: 3px 0;font-weight: bold;text-transform: uppercase;font-size: 13px;}
+#content_office a{text-decoration: none;}
+#content_office .branch-i{border-bottom: 1px solid #dbdbdb;margin-bottom: 10px;padding-bottom: 5px;}
+
+.page-complete .confirmtitle{font-weight: bold;color: #ff4500;padding: 5px 0;font-size: 14px;}
+.page-complete strong{font-weight: bold;}
+.page-complete .bookingcode{text-align: center;background:#DBF2FF;font-weight: bold;
+    border: 1px solid #dbdbdb;border-left: 0;border-right:0;line-height: 30px;
+    margin:5px 0;
+}
+.page-complete #printarea table{width: 100%;}
+.page-complete #printarea table td{padding: 2px 0;}
+
+.page-complete #printarea td.go-icon{background: #fdedcc url(../images/icon_outbound.png) 5px no-repeat;padding-left: 30px;line-height: 25px;}
+.page-complete #printarea td.back-icon{background: #fdedcc url(../images/icon_inbound.png) 5px no-repeat;padding-left: 30px;line-height: 25px;}
+
+.page-complete .confirm_info{padding: 10px 5px;margin:10px 0;background: #DBF2FF;}
+.page-complete .hotline_confirm{font-size: 18px;font-weight: bold;color: orange;}
+
+#ctleft h1.choisetitle{
+    line-height: 40px;
+    height: 40px;
+
+    font-size: 16px;
+    color: #354A77;
+    text-transform: uppercase;
+    background-color: #ececec;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.payment a{color: #f20000;text-decoration: none;}
+.payment a:hover{text-decoration: underline;}
+.methods-header .checkbox:before,.methods-header .radio:before{top:25px;left:20px;}

@@ -1,0 +1,324 @@
+
+.composite-heading {
+    line-height: 23px;
+    overflow: visible;
+    background: #f2f1f2;
+}
+.composite-heading .composite-heading-title {
+    min-width: 107px;
+    float: left;
+}
+.composite-heading .composite-heading-title .heading-title {
+    height: 25px;
+    position: relative;
+    padding-right: 3px;
+    color: #d5d5d5;
+    background: #fff;
+    font-size: 14px;
+	float:left;
+	text-transform:uppercase;
+}
+.composite-heading .composite-heading-element.heading-icon {
+    height: 25px;
+    position: relative;
+    margin-right: 4px;
+}
+.composite-heading .composite-heading-element.heading-icon:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 19px;
+    height: 25px;
+    width: 22px;
+    background-color: #fff;
+}
+.composite-heading .composite-heading-element.heading-icon.tall-heading-icon i {
+    top: -4px;
+	    position: relative;
+    overflow: visible;
+}
+.composite-heading .composite-heading-element.heading-text {
+    min-width: 100px;
+    padding-right: 25px;
+    font-weight: bold;
+	float:left;
+}
+
+.field-table .bg_vnal{
+    background: transparent url(../images/airline-icons/vn.png) center no-repeat;
+	height:50px;
+	margin-bottom:5px;
+}
+
+.field-table .bg_js{
+    background: transparent url(../images/airline-icons/js.png) center no-repeat;
+	height:50px;
+	margin-bottom:5px;
+}
+
+.field-table .bg_vj{
+    background: transparent url(../images/airline-icons/vj.png) center no-repeat;
+	height:50px;
+	margin-bottom:5px;
+}
+
+.field-table .bg_qh{
+    background: transparent url(../images/airline-icons/logo-qh-new-2.png) center no-repeat;
+	height:50px;
+	margin-bottom:5px;
+}
+
+.field-table .mini_err,#err_info{color: red;}
+ 
+
+#reviewprice{padding: 10px; }
+ 
+.passsenger h4{ color:#000; font-weight:400;}
+#reviewprice fieldset{margin-bottom:20px;}
+ 
+#reviewprice .field-table td{padding: 5px 0;}
+#reviewprice .field-table .calcuprice{font-size: 14px;}
+#reviewprice .total{padding: 10px 10px 0px 5px;background:#2D67B2; overflow:hidden;}
+#reviewprice .total .cont{float: left; font-size: 16px;font-weight: bold;text-transform: uppercase; color:#fff;}
+#reviewprice .total p{float: right;font-size: 16px;font-weight: bold; color: #fff;}
+
+textarea[name=special_request]{border: 1px solid #ccc;}
+
+.widgetblock-content .field-table {
+width: 100%;
+}
+
+/*************************
+	INTER FLIGHT SEARCH
+**************************/
+.inter-outbound-head{
+	padding: 3px 6px;
+    border-radius: 5px;
+	line-height:30px;
+	background-image: url(images/stripes_3_b.png);
+}
+.inter-outbound-head .outbound-icon{
+	background:url(../images/inter-outbound.png) left 5px center no-repeat;
+	line-height:30px;
+}
+/* a.inter-view-outbound-detail{
+	background:url(../images/collaspe.png) left top no-repeat;
+	display:block;
+	height:17px;
+	text-decoration:none;
+	padding-left:20px;
+	float:right;
+	line-height:17px;
+	margin-top:6px;
+	margin-right:15px;
+}
+a.inter-view-outbound-detail.collapse{
+	background-position:left bottom;
+} */
+.inter-inbound-head{
+	line-height:30px;
+	background-image: url(images/stripes_3_b.png);
+}
+.inter-inbound-head .inbound-icon{
+	background: url(../images/inter-inbound.png) left 5px center no-repeat;
+	line-height:30px;
+}
+.inter-inbound-head td{
+	border-top: 1px solid #ced4da;
+}
+/* a.inter-view-inbound-detail{
+	background:url(../images/collaspe.png) left top no-repeat;
+	display:block;
+	height:17px;
+	text-decoration:none;
+	padding-left:20px;
+	float:right;
+	line-height:17px;
+	margin-top:0px;
+	margin-right:15px;
+}
+a.inter-view-inbound-detail.collapse{
+	background-position:left bottom;
+} */
+.inter-outbound td{
+	vertical-align:top;
+}
+.inter-inbound td{
+	vertical-align:middle;
+}
+.inter-outbound{
+	display:none;
+}
+.inter-inbound{
+	display:none;
+}
+
+/* PGAE THÔNG TIN KHACH HÀNG */
+.flight-page {
+	width: 100%;
+	line-height: 22px;
+	font-size: 14px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ced4da;
+	border-image: initial;
+	transition: all .2s linear;
+    margin: 0 0 10px;
+}
+.flight-page:hover {
+    border-color: #3498db;
+    box-shadow: rgba(0,0,0,.2) 0px 0px 20px 2px;
+    cursor: pointer;
+}
+.flight-page tbody tr {
+	padding: 6px 10px 10px 10px;
+}
+.flight-page tbody tr td {
+	padding-left: 5px;
+}
+.inter-outbound .flight-pax-logo-airlines-inter, .inter-inbound .flight-pax-logo-airlines-inter {
+	padding-left: 15px !important;
+}
+.flight-pax-logo-airlines-inter img {
+    max-height: 32px;
+	float: left;
+	margin-top: -5px;
+}
+.flight-pax-logo-airlines-inter .flight-no {
+	top: 2px;
+    position: relative;
+    padding-left: 5px;
+}
+.flight-pax-depart-info .departure-time , .flight-pax-arrival-info .arrival-time {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 22px;
+}
+.flight-page tbody tr.inter-outbound td, .flight-page tbody tr.inter-inbound td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.inter-outbound-head .line-height-detail .inter-view-outbound-detail span, .inter-inbound-head .line-height-detail .inter-view-inbound-detail span {
+	margin-left: 5px;
+}
+.inter-outbound-head .padding-outbound .border-depart, .inter-inbound-head .padding-inbound .border-depart {
+	border-bottom: 2px solid #FFF;
+    display: block;
+    background: #FFF;
+    padding: 3px 6px;
+	border-radius: 5px;
+}
+.inter-outbound-head .padding-outbound, .inter-inbound-head .padding-inbound {
+	border-left: none;
+    border-right: none;
+    padding: 8px 5px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+}
+.flight-pax-layover .change-layover-flight-inter {
+	border-top:1px solid #DC0F16; 
+	border-bottom:1px solid #DC0F16; 
+	background:#FDDFE0; 
+	text-align:center;
+	padding: 5px 10px !important;
+}
+.flight-pax-airlines-info p {
+	margin-bottom: 0px;
+}
+input[class*=passenger_name], input[id*=contact_name] {
+    text-transform: uppercase;
+}
+.color-text-CMND {
+    color: #ed0000;
+    font-weight: 400;
+    padding-left: 20px;
+    float: right;
+}
+/* PAGE THÔNG TIN HÀNH KHÁCH */
+#frmBookingFlight .tr-flight-text {
+	box-shadow: 3px 3px 4px 0 rgba(102,175,233,0.6);
+    background-color: #fff0bd !important;
+}
+#frmBookingFlight .router-text-departure, #frmBookingFlight .router-text-arrival {
+	float: left;
+}
+#frmBookingFlight .router-text-departure p, #frmBookingFlight .router-text-arrival p {
+	margin-bottom: 0;
+}
+#frmBookingFlight .router-text-departure .span-router-departure, #frmBookingFlight .router-text-arrival .span-router-arrival {
+	font-weight: bold;
+	margin-left: 5px;
+}
+#frmBookingFlight .searchresults .searchresults-tbl {
+	font-size: 14px;
+}
+#frmBookingFlight .searchresults .searchresults-tbl.international tbody>tr td.view-flight-info {
+	clear:none;
+	float: right;
+}
+#frmBookingFlight .searchresults .searchresults-tbl.international tbody>tr .return {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+#frmBookingFlight .flight-detail-content-inline .flight-info-transit {
+	color: #181717;
+	border-top: 1px solid #dc0f16;
+    border-bottom: 1px solid #dc0f16;
+    background: #fddfe0;
+    text-align: center;
+    padding: 6px 10px 10px;
+}
+#frmBookingFlight .flight-detail-content-inline .departure-time .location, #frmBookingFlight .flight-detail-content-inline .arrival-time .location {
+	line-height: 22px;
+}
+#frmBookingFlight .flight-detail-content-inline .airlines-info u {
+	font-weight: bold;
+}
+#frmBookingFlight .flight-detail-content-inline .departure-time .date, #frmBookingFlight .flight-detail-content-inline .arrival-time .date {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+	#frmBookingFlight .searchresults .searchresults-tbl.international tbody>tr td.view-flight-info {
+		clear: right;
+		float: right;
+	}
+	#frmBookingFlight .flight-detail-content-inline .flight-info-transit {
+		line-height: 20px;
+		font-size: 13px;
+	}
+	#frmBookingFlight .flight-detail-content-inline .departure-time, #frmBookingFlight .flight-detail-content-inline .arrival-time {
+		line-height: 20px;
+		margin-right: 0px;
+		width: 50%;
+	}
+	#frmBookingFlight .flight-detail-content-inline .arrival-time {
+		text-align: right;
+	}
+	#frmBookingFlight .flight-detail-content-inline h4 {
+		font-size: 17px;
+	}
+	#frmBookingFlight .flight-detail-content-inline .departure-time .location, 
+	#frmBookingFlight .flight-detail-content-inline .arrival-time .location {
+		margin-bottom: 10px;
+		line-height: 22px;
+	}
+	#reviewprice .field-table .calcuprice {
+		font-size: 13px;
+	}
+	.searchresults .international >tbody > tr.tr-flight-text {
+		text-align: left;
+	}
+	.span-router-departure, .span-router-arrival {
+		position: relative;
+	}
+	
+}
+
+/*************************
+	END INTER FLIGHT SEARCH
+**************************/

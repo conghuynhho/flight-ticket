@@ -1,0 +1,101 @@
+#printarea .inter-outbound .flight-pax-logo-airlines-inter img, #printarea .inter-inbound .flight-pax-logo-airlines-inter img {
+    max-width: 50px;
+    height: 35px;
+} 
+#printarea .inter-outbound .flight-pax-logo-airlines-inter .flight-no, #printarea .inter-inbound .flight-pax-logo-airlines-inter .flight-no {
+    top: 8px;
+    position: relative;
+}
+.flight-top-total-complete {
+    border-top:1px dashed #ccc; 
+    padding-top:10px; 
+    line-height:30px;
+}
+.flight-top-total-complete .text-total {
+    display: inline-block;
+    width: 145px;
+    margin-right: 10px;
+}
+.flight-top-total-complete .span-text-total {
+    font-weight:bold;
+    font-size:20px;
+    color:#F20000;
+}
+.flight-top-total-complete .text-method-payment {
+    display: inline-block;
+    width: 145px;
+    margin-right: 10px;
+}
+.flight-top-total-complete .span-text-method-payment {
+    font-weight:bold;
+    font-size:16px;
+    color:#59A800
+}
+.flight-top-total-complete .text-status-method-payment {
+    display: inline-block;
+    width: 145px;
+    margin-right: 10px;
+}
+.flight-top-total-complete .span-status-method-payment {
+    font-weight:bold;
+    font-size:16px;
+    color:#59A800
+}
+.confirm_info .p-text-confirm {
+    font-size: 13px; 
+    font-weight: bold;
+}
+.confirm_info .span-hotline-confirm {
+    font-weight:bold;
+    color:#FE5815; 
+    font-size: 22px; 
+    line-height: 200%;
+}
+.confirmbox .h3-confirmbox {
+    margin-bottom: 5px;
+}
+.confirmbox .span-number-booking {
+    font-size:25px;
+    color:#F20000;
+    font-weight:bold;
+}
+.conplete-info-thanks-box .first-info-thank-book-np {
+    text-align: justify; 
+    margin: 5px 0;
+}
+.conplete-info-thanks-box .mid-info-thank-book-np {
+    text-align: justify; 
+    margin: 5px 0;
+}
+.mid-info-thank-book-np .mid-info-phone {
+    font-weight: bold; 
+    color:#FE5815;
+}
+.mid-info-thank-book-np .mid-info-phone .mid-or-info-phone {
+    font-weight: bold; 
+    color:#FE5815;
+    font-size:18px;
+}
+.complete-info-thanks-box .last-info-thank-book-np {
+    text-align: justify;
+    margin: 5px 0;
+}
+.table-box-inter {
+    background-color: #fff;
+    padding: 20px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ced4da;
+}
+.table-box-inter:hover 
+{
+    box-shadow: 3px 3px 4px 0 rgba(102,175,233,0.6);
+    background-color: #fff0bd !important;
+    z-index: 100;
+}
+.cs-font-size td {
+    font-size: 14px;
+}
+.flight-pax-logo-airlines-inter {
+    padding: 5px 10px!important;
+}

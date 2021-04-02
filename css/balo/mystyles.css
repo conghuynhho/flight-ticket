@@ -1,0 +1,45 @@
+/* fix typeahead search */
+span.twitter-typeahead {
+  width: 100%;
+}
+
+.tt-suggestion {
+  line-height: 1em;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e6e6e6;
+  white-space: nowrap;
+}
+.tt-suggestion:hover {
+  font-weight: bold;
+  color: #e74c3c;
+}
+.tt-hint {
+  color: #999;
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+.fa-heart {
+color: #e74c3c ;
+}
+@media (min-width:992px) {
+  .booking-flights-bar {
+	position: fixed;
+	}
+}
+
+#loginForm .has-error .control-label,
+#loginForm .has-error .help-block,
+#loginForm .has-error .form-control-feedback {
+    color: #f39c12;
+}
+
+#loginForm .has-success .control-label,
+#loginForm .has-success .help-block,
+#loginForm .has-success .form-control-feedback {
+    color: #18bc9c;
+}
+

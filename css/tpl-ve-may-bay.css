@@ -1,0 +1,54 @@
+.tpl__ve-may-bay .tcb-hot-city-box-tit .city-tabs>a.active {
+	color: #fff !important;
+}
+.tpl__ve-may-bay .tcb-hot-city-box-tit .city-tabs>a {
+	color: #333 !important;
+}
+.tpl__ve-may-bay .suggestion-container .tcb-hot-city-box-item .tcb-hot-city-box-name {
+	color: #234 !important;
+}
+.tpl__ve-may-bay .suggestion-container .tcb-hot-city-box-item .tcb-hot-city-box-name:hover {
+	color: #fff !important;
+}
+.tpl__ve-may-bay #tab1-arv ul li.tcb-hot-city-box-item {
+	display: block !important;
+}
+.tpl__ve-may-bay .datepicker-wrap i {
+	font-style: initial;
+}
+.tpl__ve-may-bay .form-group .easy-autocomplete {
+	width: 100% !important;
+}
+.tpl__ve-may-bay #tpllistDep, .tpl__ve-may-bay #tpllistDes {
+	left: 5px;
+}
+.tpl__ve-may-bay .tcb-hot-city-box .fi-close {
+	font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+	.tpl__ve-may-bay .tpl-full-with-12 {
+		padding: 0;
+	}
+	.tpl__ve-may-bay .scroll-touch .config-name-country li a {
+		color: #333 !important;
+	}
+	.tpl__ve-may-bay #tpl-inter-city-dep-mobile, .tpl__ve-may-bay #tpl-inter-city-arv-mobile {
+	    border-radius: 13px;
+	    display: block;
+	    margin: 10px auto;
+	    border: solid 1px #c6c6c6;
+	    font-size: .9em;
+	    text-indent: 25px;
+	    background: #fff url(../images/search-icon.png) no-repeat 5px center;
+	    box-shadow: 0 2px 2px #d3d3d3;
+	}
+	.tpl__ve-may-bay .airport-search-box-mobile .easy-autocomplete .easy-autocomplete-container ul {
+	    margin-left: -10px !important;
+	    overflow-y: visible;
+	}
+	.tpl__ve-may-bay .airport-search-box-mobile .easy-autocomplete .easy-autocomplete-container ul li {
+		margin-bottom: 0;
+	}
+}

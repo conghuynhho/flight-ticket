@@ -1,0 +1,16 @@
+#boxes{overflow:hidden;margin-bottom:3px;margin:0px;}
+#mask{position:absolute;left:0;top:0;z-index:9000;background-color:#4E4D4D;display:none;}
+#boxes .window{position:block;left:0;top:0;width:440px;height:200px;display:none;z-index:9999;padding:20px;text-align:center;}
+#boxes #popup{width:96%;height:auto;padding:10px;background-color:#ffffff;font-size:15pt;overflow:hidden;}
+.maintext{text-align:center;text-decoration:none;}
+#lorem{font-size:11pt;text-align:left;line-height:150%;width:77%;float:left;}
+#lorem a{text-decoration:none;color:#333;}
+#icon-app{float:left;width:15%;}
+#icon-app img{width:45px;}
+#popupfoot{font-size:16pt;padding:10px 20px;}
+#popupfoot a{text-decoration:none;}
+a.close-popup{float:left;width:5%;padding-top:11px;}
+a.agree{background:#f62b2b !important;padding:5px 10px;color:#fff !important;font-size:16px;float:right;margin-right:15px;text-decoration:none;margin-top:15px;}
+.agree:hover{background-color:#D1D1D1;}
+.popupoption:hover{background-color:#D1D1D1;color:green;}
+.popupoption2:hover{color:red;}

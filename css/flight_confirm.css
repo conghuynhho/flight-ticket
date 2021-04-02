@@ -1,0 +1,261 @@
+h3.confirmtitle{text-align: center;font-size: 16px;color: orange;margin: 10px 0;}
+#pagecontent{line-height: 20px;font-size: 13px;}
+p.bookingcode{padding: 5px 0;text-align: center;margin: 5px 0;background-color: #ececec;border-bottom: 1px solid #dbdbdb;border-top: 1px solid #dbdbdb;}
+#printarea{
+    padding: 10px;
+    background-color: #F8F8F8;
+    border: 1px solid #dbdbdb;
+    position: relative;
+}
+#printarea .field-table{
+    margin-bottom: 10px;
+}
+.field-table{width: 100%;}
+.field-table td{padding: 3px 2px;}
+.field-table .go-icon, .field-table .back-icon{
+    background: #ED8323  ;
+    line-height: 30px;
+    margin-top: 10px;
+	color:#fff;
+}
+td.logo{height:50px;}
+.field-table td.logo{
+    padding-left: 50px;
+}
+
+.field-table td.bg_vnal{
+    background: transparent url(../images/airline-icons/vn.png) left no-repeat;
+}
+
+.field-table td.bg_js{
+    background: transparent url(../images/airline-icons/js.png) left no-repeat;
+}
+
+.field-table td.bg_vj{
+    background: transparent url(../images/airline-icons/vj.png) left no-repeat;
+}
+.field-table td.bg_qh{
+    background: transparent url(../images/airline-icons/qh.png) left no-repeat;
+}
+.confirm_info{margin-top:20px; }
+
+.hotline_confirm {font-size: 16px;font-weight: bold;color: #01c8ff;}
+
+.confirmbox{min-height: 200px;padding:20px;line-height: 20px;font-size: 13px;padding-top:0px;}
+.confirmbox h1{font-size: 18px;margin-bottom: 10px;color: #0080ff;text-transform: uppercase;}
+
+#printit{display: none;}
+#btnprint{position: absolute;top:10px;right: 10px;line-height: 18px;padding-left: 20px;background: transparent url(../images/print-icon.png) left no-repeat;
+    text-decoration: none;
+}
+#btnprint:hover{text-decoration: underline;}
+@media print{
+    #printit{width: 99%;}
+    #printarea{padding: 10px;}
+    #masthead,#nav-flightsearch,#confirmbox,.confirmbox,.confirm_info{display: none;}
+    nav{display: none;}
+    #ctright{display: none;}
+    #colophon{display: none;}
+    #maincontent.inside{border: 0;}
+    #colLeft{width: 99%;}
+    #printit{display: table;}
+    #btnprint{display: none;}
+    .field-table td.logo{padding-left: 0;width: 0;border: 0;}
+
+}
+/*************************
+	INTER FLIGHT SEARCH
+**************************/
+.inter-outbound-head{
+	line-height:30px;
+	background-image: url(images/stripes_3_b.png);
+}
+.inter-outbound-head .outbound-icon{
+	background:url(../images/inter-outbound.png) left 5px center no-repeat;
+	line-height:30px;
+}
+/* a.inter-view-outbound-detail{
+	background:url(../images/collaspe.png) left top no-repeat;
+	display:block;
+	height:17px;
+	text-decoration:none;
+	padding-left:20px;
+	float:right;
+	line-height:17px;
+	margin-top:6px;
+	margin-right:15px;
+} */
+a.inter-view-outbound-detail.collapse{
+	background-position:left bottom;
+}
+.inter-inbound-head{
+	line-height:30px;
+	background-image: url(images/stripes_3_b.png);
+}
+.inter-inbound-head .inbound-icon{
+	background: url(../images/inter-inbound.png) left 5px center no-repeat;
+	line-height:30px;
+}
+.inter-inbound-head td{
+	border-top:1px solid #F10303;
+}
+/* a.inter-view-inbound-detail{
+	background:url(../images/collaspe.png) left top no-repeat;
+	display:block;
+	height:17px;
+	text-decoration:none;
+	padding-left:20px;
+	float:right;
+	line-height:17px;
+	margin-top:6px;
+	margin-right:15px;
+} */
+a.inter-view-inbound-detail.collapse{
+	background-position:left bottom;
+}
+.inter-outbound td{
+	vertical-align:middle;
+}
+.inter-inbound td{
+	vertical-align:middle;
+}
+.inter-outbound{
+	display:none;
+}
+.inter-inbound{
+	display:none;
+}
+/*************************
+	END INTER FLIGHT SEARCH
+**************************/
+
+/*************************
+	CAR RENTAL
+**************************/
+#carRental-wrap {
+    line-height: 20px;
+    overflow: hidden;
+    outline: 1px #dbdbdb solid;
+    outline-offset: -16px;}
+#carRental-wrap img {
+    margin: auto;
+    display: block;}
+a#carRental {
+	outline: none;
+	display: inline-block;
+	margin: auto;
+    margin-top: 25px; position:relative;
+}
+a#carRental span.button {
+    position: absolute;
+    top: 0px;
+    left: 205px;
+}	
+#carRentalContainer {
+    padding: 10px;
+    margin-bottom: 15px;
+	margin-top:-16px;
+	border:1px #dbdbdb solid;
+}	
+.font-blue{color: #01b7f2;}
+#carRentalContainer input#BtnSearch {
+    margin-top: 23px;
+}
+#carRentalContainer a.moduleControl {
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#moto-pickup{
+	background: transparent url(../images/moto-icon.jpg)top left no-repeat;
+	height:40px;
+	padding-left:50px;
+	margin-left:15px;
+	line-height: 20px;
+	margin-top: 5px
+}
+#frmBooking input#couponEntry {
+    position: absolute;
+    top: 25px;
+}
+
+/* PAGE HOÀN TẤT ĐƠN HÀNG */
+.flight-complete-inter .searchresults-tbl .tr-flight-text {
+	box-shadow: 3px 3px 4px 0 rgba(102,175,233,0.6);
+    background-color: #fff0bd !important;
+}
+.flight-complete-inter .router-text-departure, .flight-complete-inter .router-text-arrival {
+	float: left;
+}
+.flight-complete-inter .router-text-departure p, .flight-complete-inter .router-text-arrival p {
+	margin-bottom: 0;
+}
+.flight-complete-inter .router-text-departure .span-router-departure, .flight-complete-inter .router-text-arrival .span-router-arrival {
+	font-weight: bold;
+	margin-left: 5px;
+}
+.flight-complete-inter .searchresults .searchresults-tbl {
+	font-size: 14px;
+}
+.flight-complete-inter .searchresults .searchresults-tbl.international tbody>tr td.view-flight-info {
+	clear:none;
+	float: right;
+}
+.flight-complete-inter .searchresults .searchresults-tbl.international tbody>tr .return {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+.flight-complete-inter .flight-detail-content-inline .flight-info-transit {
+	color: #181717;
+	border-top: 1px solid #dc0f16;
+    border-bottom: 1px solid #dc0f16;
+    background: #fddfe0;
+    text-align: center;
+    padding: 6px 10px 10px;
+}
+.flight-complete-inter .flight-detail-content-inline .departure-time .location, .flight-complete-inter .flight-detail-content-inline .arrival-time .location {
+	line-height: 22px;
+}
+.flight-complete-inter .flight-detail-content-inline .airlines-info u {
+	font-weight: bold;
+}
+.flight-complete-inter .flight-detail-content-inline .departure-time .date, .flight-complete-inter .flight-detail-content-inline .arrival-time .date {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+	.flight-complete-inter .searchresults .searchresults-tbl.international tbody>tr td.view-flight-info {
+		clear: left;
+		float: right;
+	}
+	.flight-complete-inter .flight-detail-content-inline .flight-info-transit {
+		line-height: 20px;
+		font-size: 13px;
+	}
+	.flight-complete-inter .flight-detail-content-inline .departure-time, .flight-complete-inter .flight-detail-content-inline .arrival-time {
+		line-height: 20px;
+		margin-right: 0px;
+		width: 50%;
+	}
+	.flight-complete-inter .flight-detail-content-inline .arrival-time {
+		text-align: right;
+	}
+	.flight-complete-inter .flight-detail-content-inline h4 {
+		font-size: 17px;
+	}
+	.flight-complete-inter .flight-detail-content-inline .departure-time .location, 
+	.flight-complete-inter .flight-detail-content-inline .arrival-time .location {
+		margin-bottom: 10px;
+		line-height: 22px;
+	}
+	.searchresults .international >tbody > tr.tr-flight-text {
+		text-align: left;
+	}
+	.span-router-departure, .span-router-arrival {
+		position: relative;
+	}
+	
+}

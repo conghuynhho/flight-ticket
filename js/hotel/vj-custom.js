@@ -1,0 +1,12 @@
+$('.booking-vj-item-container').children('.booking-vj-item').click(function(event) {
+    if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        $(this).parent().removeClass('active');
+    } else {
+        $(this).addClass('active');
+        $(this).parent().addClass('active');
+        $(this).delay(1500).queue(function() {
+            $(this).addClass('viewed')
+        });
+    }
+});
